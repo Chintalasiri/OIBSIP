@@ -134,4 +134,98 @@ The objective of this project is to perform customer segmentation using the K-Me
 
 This project demonstrates how customer segmentation using the RFM model and K-Means clustering helps businesses understand customer behaviour. The identified customer groups enable organizations to implement personalized marketing strategies, improve customer retention, and increase overall business revenue.
 
--
+# Oasis Infobyte Data Analytics Internship
+
+## Level 1 - Task 3: Data Cleaning
+
+### 📌 Objective
+
+The objective of this project is to demonstrate professional-level data cleaning skills by transforming a raw dataset into a clean, analysis-ready dataset using Python and Pandas.
+
+---
+
+## 📂 Dataset
+
+- **Dataset:** Titanic Dataset
+- **Source:** Kaggle
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Google Colab
+- Jupyter Notebook
+
+---
+
+## 📋 Project Workflow
+
+- Loaded the dataset
+- Generated a Data Quality Report
+- Checked missing values
+- Checked duplicate records
+- Standardized categorical values
+- Detected outliers using the IQR Method
+- Verified data types
+- Compared dataset before and after cleaning
+- Exported the cleaned dataset as a new CSV file
+
+---
+
+## 🔍 Data Quality Checks
+
+- Dataset Shape
+- Data Types
+- Missing Values
+- Duplicate Rows
+- Value Inspection
+
+---
+
+## 🧹 Data Cleaning Techniques
+
+### Missing Values
+No missing values were found in the dataset.
+
+### Duplicate Records
+No duplicate rows were identified.
+
+### Standardisation
+The categorical values were already standardized; therefore, no formatting changes were required.
+
+### Outlier Detection
+The IQR (Interquartile Range) method was applied to detect outliers in the Age column.
+
+The identified outliers represented genuine elderly passengers rather than data entry errors. Hence, they were retained to preserve the integrity of the dataset.
+
+### Data Type Verification
+All columns already had appropriate data types, so no corrections were necessary.
+
+---
+
+## 📊 Before vs After Summary
+
+| Metric | Before | After |
+|---------|--------|-------|
+| Rows | 887 | 887 |
+| Missing Values | 0 | 0 |
+| Duplicate Rows | 0 | 0 |
+| Data Type Issues | None | None |
+
+---
+
+## 📁 Output
+
+**Cleaned Dataset**
+
+`Titanic_Cleaned_Dataset.csv`
+
+---
+
+## ✅ Conclusion
+
+The Titanic dataset was successfully inspected and cleaned using Python and Pandas. The dataset contained no missing values or duplicate records, data types were correct, and the detected outliers represented valid observations. The cleaned dataset is now ready for further analysis and machine learning applications.
+
