@@ -228,4 +228,3 @@ All columns already had appropriate data types, so no corrections were necessary
 ## ✅ Conclusion
 
 The Titanic dataset was successfully inspected and cleaned using Python and Pandas. The dataset contained no missing values or duplicate records, data types were correct, and the detected outliers represented valid observations. The cleaned dataset is now ready for further analysis and machine learning applications.
-
